@@ -1,17 +1,30 @@
 
-# 机器学习笔记
-
 ## 简介
 
-机器学习笔记，使用 `jupyter notebook (ipython notebook)` 进行展示。
+这是一份读书笔记，同时也希望能够涵盖 Python，numpy，pandas 这些基本的语言工具，线性代数、微积分、概率论 这些数学基础，以及机器学习、特征工程，乃至深度学习，帮助读者快速入门。
 
+部分内容属于原创或再加工，部分内容来自互联网，详细来源请移步 Reference，尽量遵从原开源协议，如有异议请联系本人。
+
+----
 ## 目录
 
-第一部分来自 `Bishop` 的经典书籍 `Pattern Recognition and Machine Learning（PRML）`。
+第零部分补充 Python 的基础知识帮助读者快速入门，建议用时1天。后续继续补充讲解 Python 的内存模型和部分源码实现。
 
-第二部分来自 `Bengio` 的最新书籍 `Deep Learning`。
+第一部分来自 `McKinney` 的经典书籍 `Python for Data Analysis, 2nd Edition(利用 Python 进行数据分析，第二版)`，英文版 github 仓库：[pydata-book](https://github.com/wesm/pydata-book)。作者 [Wes McKinney](https://github.com/wesm) 是 pandas 的创作者，所以书中关于 pandas 的讲解也是最实用的部分。建议用时1-2天。
 
-### 第一部分 PRML 笔记
+第二部分来自 `Aurélien Géron` 的热门书籍 `Hands-On Machine Learning with Scikit-Learn and TensorFlow`。建议用时10天。
+
+第三部分来自 `Bishop` 的经典书籍 `Pattern Recognition and Machine Learning`。其中 Python 实现的代码部分参考 [PRML](https://github.com/ctgk/PRML)。
+
+第四部分来自 `Bengio` 的最新书籍 `Deep Learning`。
+
+### 第一部分 PyData
+- [5. 开始使用 pandas](Python-for-Data-Analysis/Chapter-05-Getting-Started-with-pandas)
+    - [5.1. pandas 数据结构](Python-for-Data-Analysis/Chapter-05-Getting-Started-with-pandas/05-01-Introduction-to-pandas-Data-Structures.ipynb)
+    - [5.2. 主要功能](Python-for-Data-Analysis/Chapter-05-Getting-Started-with-pandas/05-02-Essential-Functionality.ipynb)
+    - [5.3. 汇总和描述性统计](Python-for-Data-Analysis/Chapter-05-Getting-Started-with-pandas/05-03-Summarizing-and-Computing-Descriptive-Statistics.ipynb)
+
+### 第三部分 PRML
 
 - [1. 简介](Pattern-Recognition-and-Machine-Learning/Chap-01-Introduction)
     - [1.1. 例子：多项式拟合](Pattern-Recognition-and-Machine-Learning/Chap-01-Introduction/01-01-Example-Polynomial-Curve-Fitting.ipynb)
@@ -72,7 +85,7 @@
 - [4. 线性分类模型](Pattern-Recognition-and-Machine-Learning/Chap-04-Linear-Models-for-Classification)
     - [4.1 判别函数](Pattern-Recognition-and-Machine-Learning/Chap-04-Linear-Models-for-Classification/04-01-Discriminant-Functions.ipynb)
 
-### 第二部分 DP 笔记
+### 第四部分 DP
 
 - [I 数学和机器学习基础](Deep-Learning/Part-I)
     - [2. 线性代数](Deep-Learning/Part-I/Chap-02-Linear-Algebra)
@@ -90,9 +103,20 @@
         - [2.12 例子：主成分分析](Deep-Learning/Part-I/Chap-02-Linear-Algebra/02-12-Example-Principal-Components-Analysis.ipynb)
 
 ----
-
-## 参考资料和文献：
+## Reference
 
 [1] Christopher, M. Bishop. "Pattern recognition and machine learning." Company New York 16.4 (2006): 049901.
 
 [2] Goodfellow I, Bengio Y, Courville A. Deep learning[J]. 2015, 2016.
+
+[3] https://github.com/BrambleXu/pydata-notebook
+
+[4] https://github.com/lijin-THU/notes-machine-learning
+
+[5] https://github.com/ctgk/PRML
+
+[6] https://github.com/ageron/handson-ml
+
+[7] https://github.com/apachecn/hands_on_Ml_with_Sklearn_and_TF
+
+[8] https://github.com/nndl/nndl.github.io
